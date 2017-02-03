@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+*{
+	padding: 0;
+	margin: 0;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	background-color: #ffffff;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 100%;
+}
+@-webkit-keyframes animationDetailOne{
+	0%{
+		opacity: 0;
+		top: -40px;
+	}
+	60%{
+		opacity: 1;
+	}
+	70%{
+		opacity: 1;
+		top: 30px;
+	}
+	100%{
+		opacity: 1;
+		top: 30px;
+	}
+}
+@-webkit-keyframes animationDetailTwo{
+	0%{
+		opacity: 0;
+		top: -40px;
+	}
+	30%{
+		opacity: 0;
+		top: -40px;
+	}
+	80%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 1;
+		top: -20px;
+	}
+}
+@-webkit-keyframes animationDetailThree{
+	0%{
+		opacity: 0;
+		top: -20px;
+	}
+	60%{
+		opacity: 0;
+		top: -20px;
+	}
+	80%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 1;
+		top: 49px;
+	}
+}
+@-webkit-keyframes animationDrop{
+	0%{
+		height: 0px;
+	}
+	100%{
+		height: 100px;
+	}
+}
+@-webkit-keyframes animationDropBefore{
+	0%{
+		height: 0px;
+	}
+	100%{
+		height: 150px;
+	}
+}
+@-webkit-keyframes animationDropAfter{
+	0%{
+		height: 0px;
+	}
+	100%{
+		height: 80px;
+	}
+}
+.text{
+	position: absolute;
+	top: 3%;
+	left: 3%;
+}
+.text h1{
+	font-size: 3em;
+	color: #ff5252;
+}
+.text p{
+	font-size: 2em;
+}
+.text p span{
+	color: #ff5252;
+}
+.text-effect{
+	width: 215px;
+	height: 50px;
+	position: absolute;
+	z-index: 5;
+	top: 0;
+	left: 0;
+}
+.container{
+	width: 560px;
+	height: 470px;
+	position: absolute;
+	top: calc(50% - 237px);
+	left: calc(50% - 280px);
+}
+.cake{
+	width: 560px;
+	height: 253px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #e4de92;
+	box-sizing: border-box;
+	border-bottom: 21px solid #f1ae29;
+	border-right: 21px solid #f1ae29;
+	border-radius: 0 0 50px 0;
+}
+.cake:before{
+	content: "";
+	width: 539px;
+	height: 34px;
+	position: absolute;
+	top: calc(50% - 17px);
+	left: 0;
+	background-color: #FFF;
+}
+.cake:after{
+	content: "";
+	width: 560px;
+	height: 29px;
+	position: absolute;
+	top: -29px;
+	left: 0;
+	background-color: #6e3521;
+}
+.chocolate{
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -7px;
+    left: -6px;
+    border-right: 540px solid #8b5028;
+    border-top: 120px solid transparent;
+    border-bottom: 155px solid transparent;
+    transform: rotate(-16deg);
+}
+.chocolate:before{
+    content: "";
+    width: 120px;
+    height: 340px;
+    position: absolute;
+    background-color: #FFF;
+    top: -142px;
+    right: -612px;
+    transform: rotate(-22deg);
+}
+.detail-one{
+	width: 120px;
+    height: 120px;
+    position: absolute;
+    z-index: 3;
+    top: 30px;
+    left: 192px;
+    background: -webkit-linear-gradient(left, #bf6227 0%, #bf6227 50%, #a55425 50%, #a55425 100%);
+    border-radius: 50%;
+    -webkit-animation: animationDetailOne 1s linear;
+}
+.detail-two{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    z-index: 2;
+    top: -20px;
+    left: 242px;
+    background: -webkit-linear-gradient(left, #ee2c2c 0%, #ee2c2c 50%, #d81f25 50%, #d81f25 100%);
+    border-radius: 50%;
+    -webkit-animation: animationDetailTwo 1s linear;
+}
+.detail-three{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    z-index: 4;
+    top: 49px;
+    left: 322px;
+    background: -webkit-linear-gradient(left, #faa224 0%, #faa224 50%, #d58929 50%, #d58929 100%);
+    border-radius: 50%;
+    -webkit-animation: animationDetailThree 1s linear;
+}
+.drop{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    z-index: 3;
+    top: 190px;
+    left: 290px;
+    background-color: #6e3521;
+    border-radius: 0 0 40px 40px;
+    -webkit-animation: animationDrop 2s linear;
+}
+.drop:before{
+    content: "";
+    width: 40px;
+    height: 150px;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 59px;
+    background-color: #6e3521;
+    border-radius: 0 0 40px 40px;
+    -webkit-animation: animationDropBefore 2s linear;
+}
+.drop:after{
+    content: "";
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 125px;
+    background-color: #6e3521;
+    border-radius: 0 0 40px 40px;
+    -webkit-animation: animationDropAfter 2s linear;
+}

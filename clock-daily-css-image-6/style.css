@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	background-color: #f7f7f7;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 100%;
+}
+@-webkit-keyframes effect {
+    0%{
+      -webkit-transform: scale(.8);
+    }
+    30%{
+      -webkit-transform: scale(1);
+    }
+    40%{
+      -webkit-transform: scale(1);
+      -webkit-transform: rotate(-22deg);
+    }
+    50%{
+      -webkit-transform: scale(1);
+      -webkit-transform: rotate(22deg);
+    }
+    60%{
+      -webkit-transform: scale(1);
+      -webkit-transform: rotate(-22deg);
+    }
+    70%{
+      -webkit-transform: scale(1);
+      -webkit-transform: rotate(22deg);
+    }
+    80%{
+      -webkit-transform: scale(1);
+      -webkit-transform: rotate(-22deg);
+    }
+    90%{
+      -webkit-transform: scale(1);
+      -webkit-transform: rotate(22deg);
+    }
+    100%{
+      -webkit-transform: scale(1);
+      -webkit-transform: rotate(-22deg);
+    }
+  }
+.text{
+	position: absolute;
+	top: 3%;
+	left: 3%;
+}
+.text h1{
+	font-size: 3em;
+	color: #4593b7;
+}
+.text p{
+	font-size: 2em;
+  margin-bottom: 20px;
+	color: #000;
+}
+.text p:last-child{
+	font-size: 1.5em;
+}
+.text p span{
+	color: #4593b7;
+}
+.container{
+	width: 420px;
+	height: 470px;
+	display: flex;
+	position: relative;
+	-webkit-transform: scale(.8);
+}
+.container:hover{
+	-webkit-animation: effect 1s linear infinite alternate;
+}
+.container:before{
+    content: "Hover me";
+    position: absolute;
+    top: -70px;
+    left: 120px;
+    color: red;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+.medium{
+	width: 376px;
+	height: 376px;
+	position: absolute;
+	z-index: 2;
+	top: 68px;
+	left: 22px;
+	background-color: #f7f7f7;
+	border: 38px solid #4a9abd;
+	border-radius: 50%;
+}
+.tootsy-left,
+.tootsy-right{
+    width: 25px;
+    height: 70px;
+    position: absolute;
+    bottom: 27px;
+    background-color: #2d2324;
+    border-radius: 0 0 20px 20px;
+}
+.tootsy-left{
+    left: 74px;
+    transform: rotate(25deg);	
+}
+.tootsy-right{
+    right: 75px;
+    transform: rotate(-29deg);
+}
+.base-ear-left,
+.base-ear-right{
+    width: 16px;
+    height: 90px;
+    position: absolute;
+    top: 7px;
+    background-color: #2d2324;
+    border-radius: 30px 30px 0 0;
+}
+.base-ear-left{
+    left: 94px;
+    transform: rotate(-32deg);	
+}
+.base-ear-right{
+    right: 94px;
+    transform: rotate(32deg);	
+}
+.ear-left,
+.ear-right{
+	width: 154px;
+    height: 60px;
+    position: absolute;
+    z-index: 2;
+    background-color: #53a1c5;
+    border-radius: 70px 70px 0 0;
+}
+.ear-left{
+    transform: rotate(-31deg);
+    top: 21px;
+    left: 22px;	
+}
+.ear-right{
+    transform: rotate(31deg);
+    top: 21px;
+    right: 22px;	
+}
+.base-pointer{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	z-index: 5;
+	top: calc(50% - 15px);
+	left: calc(50% - 15px);
+	background-color: #2e2122;
+	border-radius: 50%;
+}
+.base-pointer:after{
+    content: "";
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    z-index: 6;
+    top: calc(50% - 10px);
+    left: calc(50% - 10px);
+    background-color: #e9e9ea;
+    border: 1px solid #c0664e;
+    border-radius: 50%;
+}
+.pointer-one{
+    width: 16px;
+    height: 120px;
+    position: absolute;
+    z-index: 5;
+    top: 27px;
+    left: 142px;
+    background-color: #2d2324;
+    border-radius: 30px 30px 0 0;
+}
+.pointer-two{
+    width: 21px;
+    height: 100px;
+    position: absolute;
+    z-index: 5;
+    top: 135px;
+    left: 107px;
+    background-color: #2d2324;
+    border-radius: 30px 30px 0 0;
+    transform: rotate(225deg);
+}

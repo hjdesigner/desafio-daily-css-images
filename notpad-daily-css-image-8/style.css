@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	background-color: #f7f7f7;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 100%;
+}
+.text{
+	width: 215px;
+	height: auto;
+  position: absolute;
+  top: 73px;
+  left: 14px;
+}
+.text h1{
+	position: absolute;
+  font-size: 1.5em;
+  color: #4593b7;
+  top: -3px;
+  left: 0;
+}
+.text p{
+	position: absolute;
+	top: 48px;
+	left: 0;
+	font-size: 1.5em;
+  margin-bottom: 20px;
+	color: #000;
+}
+.text p:first-child{
+	top: 10px;
+	font-size: 1em;
+}
+
+.text p:last-child{
+	top: 97px;
+}
+.text p span{
+	color: #4593b7;
+}
+.text-effect{
+	width: 215px;
+	height: 50px;
+	position: absolute;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	background-color: #fffae4;
+}
+.container{
+  width: 277px;
+  height: 408px;
+  position: absolute;
+  top: calc(50% - 204px);
+  left: calc(50% - 138px);
+}
+.behind-cover{
+	width: 277px;
+	height: 408px;
+	float: left;
+	box-shadow: 3px 3px 0px #2e2200;
+	background-color: #7f3100;
+	border-radius: 23px;
+}
+.leaf{
+	width: 246px;
+	height: 392px;
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 17px;
+	background-color: #fffae4;
+}
+.line{
+	width: 215px;
+	height: 2px;
+	position: absolute;
+	z-index: 3;
+	top: 73px;
+	left: 14px;
+	background-color: #7d7666;
+	box-shadow: #7d7666 0px 25px 0px,
+							#7d7666 0px 50px 0px,
+							#7d7666 0px 75px 0px,
+							#7d7666 0px 100px 0px,
+							#7d7666 0px 125px 0px,
+							#7d7666 0px 150px 0px,
+							#7d7666 0px 175px 0px,
+							#7d7666 0px 200px 0px,
+							#7d7666 0px 225px 0px,
+							#7d7666 0px 250px 0px,
+							#7d7666 0px 275px 0px;
+}
+.hole{
+	width: 12px;
+	height: 13px;
+	position: absolute;
+	z-index: 3;
+	top: 7px;
+	left: 20px;
+	background-color: #FFF;
+	border-top: 1px solid #433e39;
+	border-left: 1px solid #433e39;
+}
+.hole:before,
+.hole:after{
+	content: "";
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	z-index: 3;
+	top: -1px;
+	background-color: #FFF;
+	border-top: 1px solid #433e39;
+	border-left: 1px solid #433e39;
+}
+.hole:before{
+	left: 24px;
+}
+.hole:after{
+	left: 49px;
+}
+.hole-two{
+	width: 12px;
+	height: 13px;
+	position: absolute;
+	z-index: 3;
+	top: 7px;
+	left: 96px;
+	background-color: #FFF;
+	border-top: 1px solid #433e39;
+	border-left: 1px solid #433e39;
+}
+.hole-two:before,
+.hole-two:after{
+	content: "";
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	z-index: 3;
+	top: -1px;
+	background-color: #FFF;
+	border-top: 1px solid #433e39;
+	border-left: 1px solid #433e39;
+}
+.hole-two:before{
+	left: 24px;
+}
+.hole-two:after{
+	left: 49px;
+}
+.hole-three{
+	width: 12px;
+	height: 13px;
+	position: absolute;
+	z-index: 3;
+	top: 7px;
+	left: 170px;
+	background-color: #FFF;
+	border-top: 1px solid #433e39;
+	border-left: 1px solid #433e39;
+}
+.hole-three:before,
+.hole-three:after{
+	content: "";
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	z-index: 3;
+	top: -1px;
+	background-color: #FFF;
+	border-top: 1px solid #433e39;
+	border-left: 1px solid #433e39;
+}
+.hole-three:before{
+	left: 24px;
+}
+.hole-three:after{
+	left: 49px;
+}
+.wire{
+	width: 3px;
+	height: 20px;
+	position: absolute;
+	z-index: 4;
+	background-color: #433e39;
+	top: -5px;
+	left: 22px;
+	box-shadow: #433e39 5px 0px 0px,
+							#433e39 26px 0px 0px,
+							#433e39 31px 0px 0px,
+							#433e39 56px 0px 0px,
+							#433e39 51px 0px 0px,
+							#433e39 76px 0px 0px,
+							#433e39 81px 0px 0px,
+							#433e39 102px 0px 0px,
+							#433e39 107px 0px 0px,
+							#433e39 127px 0px 0px,
+							#433e39 132px 0px 0px,
+							#433e39 151px 0px 0px,
+							#433e39 156px 0px 0px,
+							#433e39 176px 0px 0px,
+							#433e39 181px 0px 0px,
+							#433e39 201px 0px 0px,
+							#433e39 206px 0px 0px;
+}
+.tag{
+	width: 85px;
+	height: 31px;
+	background-color: #1ebc91;
+	position: absolute;
+	z-index: 1;
+	right: -20px;
+	transition: right .25s ease-in-out;
+}
+.tag:hover{
+	right: -35px;
+}
+.tag:after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-right: 13px solid #f7f7f7;
+	border-top: 16px solid transparent;
+	border-bottom: 16px solid transparent;
+}
+.tag-one{
+	bottom: 172px;
+	background-color: #1ebc91;
+}
+.tag-two{
+	bottom: 133px;
+	background-color: #96be00;
+}
+.tag-three{
+	bottom: 94px;
+	background-color: #b76f25;
+}

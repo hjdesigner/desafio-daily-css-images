@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	background-color: #f7f7f7;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 100%;
+}
+@-webkit-keyframes effectLine {
+    0%{
+      width: 0%;
+      opacity: 1;
+    }
+    100%{
+      opacity: 1;
+      width: 100%;
+    }
+    
+}
+.text{
+	position: absolute;
+	top: 3%;
+	left: 3%;
+}
+.text h1{
+	font-size: 3em;
+	color: #4593b7;
+}
+.text p{
+	font-size: 2em;
+  margin-bottom: 20px;
+	color: #000;
+}
+.text p:last-child{
+	font-size: 1.5em;
+}
+.text p span{
+	color: #4593b7;
+}
+.container{
+    width: 491px;
+    height: 75px;
+    position: absolute;
+    top: calc(50% - 30px);
+    left: calc(50% - 225px);
+}
+@-webkit-keyframes effectRuler {
+    0%{
+        top: 5px;
+        left: 0;
+        transform: rotate(0deg);
+    }
+    50%{
+        top: 5px;
+        left: 0;
+        transform: rotate(0deg);
+    }
+    60%{
+        top: 68px;
+        left: -18px;
+        transform: rotate(15deg);
+    }
+    100%{
+        top: 68px;
+        left: -18px;
+        transform: rotate(15deg);
+    }
+    
+}
+.ruler{
+    width: 491px;
+    height: 70px;
+    position: absolute;
+    background-color: #fdc153;
+    border-radius: 3px;
+    top: 68px;
+    left: -18px;
+    transform: rotate(15deg);
+    -webkit-animation: effectRuler 5s linear;
+}
+.ruler:before{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    border-right: 490px solid #e7a13f;
+    border-top: 70px solid transparent;
+    border-left: 50px solid transparent;
+}
+.ruler-line{
+    width: 6px;
+    height: 18px;
+    position: absolute;
+    z-index: 3;
+    left: 8px;
+    top: 0;
+    background-color: #4b5054;
+    box-shadow: #4b5054 12px 0px 0px,
+                #4b5054 24px 0px 0px,
+                #4b5054 36px 0px 0px,
+                #4b5054 60px 0px 0px,
+                #4b5054 72px 0px 0px,
+                #4b5054 84px 0px 0px,
+                #4b5054 96px 0px 0px,
+                #4b5054 120px 0px 0px,
+                #4b5054 132px 0px 0px,
+                #4b5054 144px 0px 0px,
+                #4b5054 156px 0px 0px,
+                #4b5054 180px 0px 0px,
+                #4b5054 192px 0px 0px,
+                #4b5054 204px 0px 0px,
+                #4b5054 216px 0px 0px,
+                #4b5054 240px 0px 0px,
+                #4b5054 252px 0px 0px,
+                #4b5054 264px 0px 0px,
+                #4b5054 276px 0px 0px,
+                #4b5054 300px 0px 0px,
+                #4b5054 312px 0px 0px,
+                #4b5054 324px 0px 0px,
+                #4b5054 336px 0px 0px,
+                #4b5054 360px 0px 0px,
+                #4b5054 372px 0px 0px,
+                #4b5054 384px 0px 0px,
+                #4b5054 396px 0px 0px,
+                #4b5054 420px 0px 0px,
+                #4b5054 432px 0px 0px,
+                #4b5054 444px 0px 0px,
+                #4b5054 456px 0px 0px;
+}
+.ruler-line:before{
+    content: "";
+    width: 6px;
+    height: 25px;
+    position: absolute;
+    z-index: 3;
+    left: 48px;
+    top: 0;
+    background-color: #4b5054;
+    box-shadow: #4b5054 120px 0px 0px,
+                #4b5054 240px 0px 0px,
+                #4b5054 360px 0px 0px;
+}
+.ruler-line:after{
+    content: "";
+    width: 6px;
+    height: 38px;
+    position: absolute;
+    z-index: 3;
+    left: 108px;
+    top: 0;
+    background-color: #4b5054;
+    box-shadow: #4b5054 120px 0px 0px,
+                #4b5054 240px 0px 0px,
+                #4b5054 360px 0px 0px;
+}
+.line-one{
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    z-index: 1;
+    background-color: #000;
+    -webkit-animation: effectLine 2s linear;
+}
