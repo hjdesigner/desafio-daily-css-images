@@ -23,5 +23,6 @@ Daily CSS Images A 100% free 50-day email challenge for mastering pure CSS image
 * Pie - Day 15 #dailycssimages
 * Frankenstein - Day 16 #dailycssimages
 * At last offline, Zombie pure CSS - Day 17 #dailycssimages
+* Vampire pure CSS - Day 18 #dailycssimages
 
 Made with lots of love <3!!
