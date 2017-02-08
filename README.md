@@ -25,5 +25,6 @@ Daily CSS Images A 100% free 50-day email challenge for mastering pure CSS image
 * At last offline, Zombie pure CSS - Day 17
 * Vampire pure CSS - Day 18
 * Monster of Choice pure CSS - Day 19
+* Mummy CSS - Day 20
 
 Made with lots of love <3!!
