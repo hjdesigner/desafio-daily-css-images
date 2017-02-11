@@ -27,5 +27,6 @@ Daily CSS Images A 100% free 50-day email challenge for mastering pure CSS image
 * Monster of Choice pure CSS - Day 19
 * Mummy CSS - Day 20
 * Superman - Day 21
+* Green Lantern - Day 22
 
 Made with lots of love <3!!
