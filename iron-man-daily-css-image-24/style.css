@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+*{
+	padding: 0;
+	margin: 0;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 100%;
+  	background-color: #6b1110;
+  	overflow: hidden;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.text{
+  position: absolute;
+  z-index: 10;
+  bottom: 3%;
+  left: 3%;
+}
+.text h1{
+  font-size: 1.5em;
+  color: #dab354;
+}
+.text p{
+  font-size: 1em;
+  color: #dab354;
+}
+.text p span{
+  color: #dab354;
+}
+@-webkit-keyframes fadeIn{
+	0%{
+		background: #6b1110;
+	}
+	10%{
+		background: -webkit-radial-gradient(center, ellipse cover, rgba(251,255,255,1) 0%, rgba(116,219,255,1) 100%);		
+	}
+	12%{
+		background: #6b1110;
+	}
+	14%{
+		background: -webkit-radial-gradient(center, ellipse cover, rgba(251,255,255,1) 0%, rgba(116,219,255,1) 100%);		
+	}
+	16%{
+		background: #6b1110;
+	}
+	18%{
+		background: -webkit-radial-gradient(center, ellipse cover, rgba(251,255,255,1) 0%, rgba(116,219,255,1) 100%);		
+	}
+	95%{
+		background: -webkit-radial-gradient(center, ellipse cover, rgba(251,255,255,1) 0%, rgba(116,219,255,1) 100%);
+	}
+	100%{
+		background: #6b1110;
+	}
+}
+@-webkit-keyframes fadeInTwo{
+	0%{
+		background-color: #6b1110;
+		box-shadow: #6b1110 80px 0px 0px, #6b1110 41px 73px 0px;
+	}
+	10%{
+		background-color: #eafbff;
+		box-shadow: #eafbff 80px 0px 0px, #eafbff 41px 73px 0px;
+	}
+	12%{
+		background-color: #6b1110;
+		box-shadow: #6b1110 80px 0px 0px, #6b1110 41px 73px 0px;
+	}
+	14%{
+		background-color: #eafbff;
+		box-shadow: #eafbff 80px 0px 0px, #eafbff 41px 73px 0px;		
+	}
+	16%{
+		background-color: #6b1110;
+		box-shadow: #6b1110 80px 0px 0px, #6b1110 41px 73px 0px;
+	}
+	18%{
+		background-color: #eafbff;		
+		box-shadow: #eafbff 80px 0px 0px, #eafbff 41px 73px 0px;		
+	}
+	95%{
+		background-color: #eafbff;
+		box-shadow: #eafbff 80px 0px 0px, #eafbff 41px 73px 0px;		
+	}
+	100%{
+		background-color: #6b1110;
+		box-shadow: #6b1110 80px 0px 0px, #6b1110 41px 73px 0px;
+	}
+}
+.arc-reactor{
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(251,255,255,1) 0%, rgba(116,219,255,1) 100%);
+	border-radius: 50%;
+	border: 30px solid #5b5e6c;
+	-webkit-animation: fadeIn 5s linear infinite;
+}
+.arc-reactor:before{
+    content: "";
+    width: 350px;
+    height: 30px;
+    background-color: #5b5e6c;
+    position: absolute;
+    top: 82px;
+    left: 0;
+}
+.arc-reactor:after{
+    content: "";
+    width: 303px;
+    height: 30px;
+    background-color: #5b5e6c;
+    position: absolute;
+    top: 212px;
+    right: -55px;
+    transform: rotate(-59deg);
+}
+.arc-reactor-two{
+	width: 303px;
+    height: 30px;
+    background-color: #5b5e6c;
+    position: absolute;
+    top: 212px;
+    left: -55px;
+    transform: rotate(59deg);
+}
+.arc-reactor-two:before{
+    content: "";
+    width: 113px;
+    height: 50px;
+    background-color: #5b5e6c;
+    position: absolute;
+    top: -115px;
+    left: -51px;
+    transform: rotate(0deg);
+}
+.arc-reactor-two:after{
+    content: "";
+    width: 93px;
+    height: 50px;
+    background-color: #5b5e6c;
+    position: absolute;
+    top: -115px;
+    left: 249px;
+    transform: rotate(0deg);
+}
+.arc-reactor-three{
+    width: 113px;
+    height: 50px;
+    background-color: #5b5e6c;
+    position: absolute;
+    top: 25px;
+    right: 52px;
+    transform: rotate(-59deg);
+}
+.arc-reactor-three:before{
+    content: "";
+    width: 93px;
+    height: 50px;
+    background-color: #5b5e6c;
+    position: absolute;
+    top: 0px;
+    right: 302px;
+    transform: rotate(0deg);
+}
+.arc-reactor-three:after{
+    content: "";
+    width: 93px;
+    height: 50px;
+    background-color: #5b5e6c;
+    position: absolute;
+    top: -110px;
+    right: 242px;
+    transform: rotate(59deg);
+}
+.arc-reactor-four{
+    width: 93px;
+    height: 50px;
+    background-color: #5b5e6c;
+    position: absolute;
+    top: 167px;
+    right: -17px;
+    transform: rotate(0deg);
+}
+.arc-reactor-four:before {
+    content: "";
+    width: 120px;
+    height: 0px;
+    position: absolute;
+    top: -27px;
+    left: -180px;
+    border-top: 22px solid #5b5e6c;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+.arc-reactor-four:after {
+    content: "";
+    width: 120px;
+    height: 0px;
+    position: absolute;
+    top: 26px;
+    left: -210px;
+    border-top: 22px solid #5b5e6c;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: rotate(-120deg);
+}
+.arc-reactor-five {
+ 	width: 120px;
+    height: 0px;
+    position: absolute;
+    top: 193px;
+    left: 126px;
+    border-top: 22px solid #5b5e6c;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: rotate(120deg);
+}
+.arc-reactor-five:before {
+    content: "";
+    width: 100px;
+    height: 15px;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    background-color: #5b5e6c;
+    transform: rotate(90deg);
+}
+.arc-reactor-five:after {
+    content: "";
+    width: 100px;
+    height: 15px;
+    position: absolute;
+    top: -41px;
+    left: -90px;
+    background-color: #5b5e6c;
+    transform: rotate(29deg);
+}
+.arc-reactor-six {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 250px;
+    left: 167px;
+    background-color: #5b5e6c;
+}
+.arc-reactor-six:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -95px;
+    left: -40px;
+    background-color: #eafbff;
+    border-radius: 50%;
+    z-index: 5;
+    box-shadow: #eafbff 80px 0px 0px, #eafbff 41px 73px 0px;
+    -webkit-animation: fadeInTwo 5s linear infinite;
+}
+.arc-reactor-sombra{
+	width: 180px;
+    height: 180px;
+    position: absolute;
+    z-index: 10;
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(116,219,255,1) 20%, rgba(251,255,255,.0) 70%);
+    border-radius: 50%;
+    opacity: 0.4;
+}
