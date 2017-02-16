@@ -31,5 +31,6 @@ Daily CSS Images A 100% free 50-day email challenge for mastering pure CSS image
 * Wolverine - Day 23
 * Iron Man - Day 24
 * Icon of Choice - Day 26
+* Icon of Choice 2 - Day 27
 
 Made with lots of love <3!!

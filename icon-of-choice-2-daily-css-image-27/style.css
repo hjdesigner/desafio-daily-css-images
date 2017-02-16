@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+*{
+	padding: 0;
+	margin: 0;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 100%;
+  background-color: #000;
+  overflow: hidden;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text{
+  position: absolute;
+  z-index: 10;
+  bottom: 3%;
+  left: 3%;
+}
+.text h1{
+  font-size: 1.5em;
+  color: #FFF;
+}
+.text p{
+  font-size: 1em;
+  color: #FFF;
+}
+.text p span{
+  color: #FFF;
+}
+.container{
+  width: 511px;
+  height: 512px;
+  position: absolute;
+  background-color: #e84f4f;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.shell{
+  width: 0;
+  height: 0;
+  position: absolute;
+  z-index: 4;
+  bottom: 52px;
+  left: 137px;
+  border-top: 280px solid #ffd796;
+  border-left: 115px solid transparent;
+  border-right: 0px solid transparent;
+}
+.shell:after{
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  z-index: 4;
+  bottom: 0px;
+  left: 0px;
+  border-top: 280px solid #f8c277;
+  border-right: 115px solid transparent;
+  border-left: 0px solid transparent;
+}
+.ice-cream{
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  border-radius: 50%;
+}
+.ice-cream-1{
+  z-index: 4;
+  background-color: #ffad1a;
+  top: 100px;
+  left: 135px;
+}
+.ice-cream-2{
+  z-index: 3;
+  background-color: #663333;
+  top: 89px;
+  left: 237px;
+}
+.ice-cream-3{
+  z-index: 2;
+  background-color: #ffe6ff;
+  top: 42px;
+  left: 184px;
+}
+.shadow{
+  width: 550px;
+  height: 360px;
+  position: absolute;
+  z-index: 1;
+  bottom: -118px;
+  right: -342px;
+  background-color: rgba(0,0,0, 0.1);
+  transform: rotate(32deg);
+}
+.shadow:before{
+  content: "";
+  width: 41px;
+  height: 330px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: -41px;
+  background-color: rgba(0,0,0, 0.1);
+  transform: rotate(0deg);
+}
+.shadow:after{
+  content: "";
+  width: 131px;
+  height: 190px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: -172px;
+  background-color: rgba(0,0,0, 0.1);
+  transform: rotate(0deg);
+}
