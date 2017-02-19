@@ -32,5 +32,6 @@ Daily CSS Images A 100% free 50-day email challenge for mastering pure CSS image
 * Iron Man - Day 24
 * Icon of Choice - Day 26
 * Icon of Choice 2 - Day 27
+* Cogs Pure CSS - Day 28
 
 Made with lots of love <3!!
