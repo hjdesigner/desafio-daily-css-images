@@ -34,5 +34,6 @@ Daily CSS Images A 100% free 50-day email challenge for mastering pure CSS image
 * Icon of Choice 2 - Day 27
 * Cogs - Day 28
 * Download - Day 29
+* Bar Graph Animated Hover - Day 30
 
 Made with lots of love <3!!

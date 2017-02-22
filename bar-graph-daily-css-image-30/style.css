@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+*{
+	padding: 0;
+	margin: 0;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 100%;
+	background-color: #dedede;
+	display: flex;
+  	align-items: flex-end;
+  	justify-content: center;
+  	overflow: hidden;
+}
+@keyframes animationBar{
+	0%{
+    bottom: 0px;
+  }
+  50%{
+    bottom: -10px;
+  }
+  100%{
+		bottom: 0px;
+	}
+}
+.text{
+  position: absolute;
+  z-index: 10;
+  top: 3%;
+  left: 3%;
+}
+.text h1{
+  font-size: 1.5em;
+  color: #000;
+}
+.text p{
+  font-size: 1em;
+  color: #000;
+}
+.text p span{
+  color: #000;
+}
+.container{
+    width: 610px;
+    height: 472px;
+    position: absolute;
+    border-left: 2px solid #000;
+}
+.container:before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #a7a7a7;
+    box-shadow: #a7a7a7 0px 50px 0, #a7a7a7 0px 100px 0, #a7a7a7 0px 150px 0, #a7a7a7 0px 200px 0, #a7a7a7 0px 250px 0, #a7a7a7 0px 300px 0, #a7a7a7 0px 350px 0, #a7a7a7 0px 400px 0, #a7a7a7 0px 450px 0;
+}
+.bar{
+    width: 108px;
+    height: 435px;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    background-color: #FFF;
+}
+.bar:after{
+    content: "";
+    width: 20px;
+    height: 435px;
+    position: absolute;
+    top: 0;
+    right: -17px;
+    background-color: #d9d9d9;
+    transform: rotateY(49deg);
+}
+.bar-css{
+    width: 108px;
+    height: 77px;
+    position: absolute;
+    z-index: 2;
+    top: 93px;
+    left: 0;
+    background-color: #ee7e33;
+}
+.bar-css:after{
+    content: "";
+    width: 29px;
+    height: 77px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: -22px;
+    background-color: #9c4609;
+    transform: rotateY(60deg);
+}
+.bar-css:before{
+    content: "CSS";
+    width: 100%;
+    height: 77px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 2em;
+    line-height: 77px;
+}
+.bar2{
+    width: 108px;
+    height: 320px;
+    position: absolute;
+    bottom: 0;
+    left: 176px;
+    background-color: #FFF;
+}
+.bar2:after{
+    content: "";
+    width: 20px;
+    height: 435px;
+    position: absolute;
+    top: 0;
+    right: -17px;
+    background-color: #d9d9d9;
+    transform: rotateY(49deg);
+}
+.bar-js{
+    width: 108px;
+    height: 77px;
+    position: absolute;
+    z-index: 2;
+    top: 93px;
+    left: 0;
+    background-color: #e0a104;
+}
+.bar-js:after{
+    content: "";
+    width: 29px;
+    height: 77px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: -22px;
+    background-color: #705101;
+    transform: rotateY(60deg);
+}
+.bar-js:before{
+    content: "JS";
+    width: 100%;
+    height: 77px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 2em;
+    line-height: 77px;
+}
+.bar3{
+    width: 108px;
+    height: 220px;
+    position: absolute;
+    bottom: 0;
+    left: 320px;
+    background-color: #FFF;
+}
+.bar3:after{
+    content: "";
+    width: 20px;
+    height: 435px;
+    position: absolute;
+    top: 0;
+    right: -17px;
+    background-color: #d9d9d9;
+    transform: rotateY(49deg);
+}
+.bar-node{
+    width: 108px;
+    height: 77px;
+    position: absolute;
+    z-index: 2;
+    top: 93px;
+    left: 0;
+    background-color: #7dc033;
+}
+.bar-node:after{
+    content: "";
+    width: 29px;
+    height: 77px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: -22px;
+    background-color: #3f6019;
+    transform: rotateY(60deg);
+}
+.bar-node:before{
+    content: "NODE";
+    width: 100%;
+    height: 77px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 2em;
+    line-height: 77px;
+}
+.bar4{
+    width: 108px;
+    height: 260px;
+    position: absolute;
+    bottom: 0;
+    left: 471px;
+    background-color: #FFF;
+}
+.bar4:after{
+    content: "";
+    width: 20px;
+    height: 435px;
+    position: absolute;
+    top: 0;
+    right: -17px;
+    background-color: #d9d9d9;
+    transform: rotateY(49deg);
+}
+.bar-react{
+    width: 108px;
+    height: 77px;
+    position: absolute;
+    z-index: 2;
+    top: 93px;
+    left: 0;
+    background-color: #5ab2be;
+}
+.bar-react:after{
+    content: "";
+    width: 29px;
+    height: 77px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: -22px;
+    background-color: #285d64;
+    transform: rotateY(60deg);
+}
+.bar-react:before{
+    content: "REACT";
+    width: 100%;
+    height: 77px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 2em;
+    line-height: 77px;
+}
+.bar:hover,
+.bar2:hover,
+.bar3:hover,
+.bar4:hover{
+  animation: animationBar 1s linear infinite;
+}
