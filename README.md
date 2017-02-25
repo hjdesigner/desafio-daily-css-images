@@ -37,5 +37,6 @@ Daily CSS Images A 100% free 50-day email challenge for mastering pure CSS image
 * Bar Graph Animated Hover - Day 30
 * Javascript Logo - Day 31
 * Angular Logo - Day 32
+* Vue JS Logo - Day 33
 
 Made with lots of love <3!!
