@@ -38,5 +38,6 @@ Daily CSS Images A 100% free 50-day email challenge for mastering pure CSS image
 * Javascript Logo - Day 31
 * Angular Logo - Day 32
 * Vue JS Logo - Day 33
+* React JS Logo - Day 34
 
 Made with lots of love <3!!

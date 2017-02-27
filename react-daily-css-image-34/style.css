@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+*{
+	padding: 0;
+	margin: 0;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 100%;
+	background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text{
+  position: absolute;
+  z-index: 10;
+  bottom: 3%;
+  left: 3%;
+}
+.text h1{
+  font-size: 1.5em;
+  color: #FFF;
+}
+.text p{
+  font-size: 1em;
+  color: #FFF;
+}
+.text p span{
+  color: #FFF;
+}
+.react-logo{
+  width: 500px;
+  height: 160px;
+  position: relative;
+  border: 15px solid #00d8ff;
+  border-radius: 50%;
+	box-shadow: #00d8ff 0px 0px 44px 0px;
+}
+.react-logo:before{
+  content: "";
+  width: 500px;
+  height: 160px;
+  position: absolute;
+  border: 15px solid #00d8ff;
+  border-radius: 50%;
+  transform: rotate(125deg);
+  top: -25px;
+  left: -18px;
+	box-shadow: #00d8ff 0px 0px 44px 0px;
+}
+.react-logo:after{
+  content: "";
+  width: 500px;
+  height: 160px;
+  position: absolute;
+  border: 15px solid #00d8ff;
+  border-radius: 50%;
+  transform: rotate(-125deg);
+  top: -25px;
+  left: -18px;
+	box-shadow: #00d8ff 0px 0px 44px 0px;
+}
+.reactive{
+  width: 100px;
+  height: 100px;
+  float: left;
+  background-color: #00d8ff;
+  border-radius: 50%;
+  margin-left: calc(50% - 50px);
+  margin-top: 30px;
+	box-shadow: #00d8ff 0px 0px 44px 0px;
+}
