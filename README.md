@@ -40,6 +40,7 @@ Daily CSS Images A 100% free 50-day email challenge for mastering pure CSS image
 * Vue JS Logo - Day 33
 * React JS Logo - Day 34
 * Elm Logo - Day 35
+* Cell Phone - Day 36
 
 
 Made with lots of love <3!!
