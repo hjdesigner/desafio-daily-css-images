@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+*{
+	padding: 0;
+	margin: 0;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 100%;
+	background-color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text{
+  position: absolute;
+  z-index: 10;
+  bottom: 3%;
+  left: 3%;
+}
+.text h1{
+  font-size: 1.5em;
+  color: #000;
+}
+.text p{
+  font-size: 1em;
+  color: #000;
+}
+.text p span{
+  color: #000;
+}
+.container{
+	width: 569px;
+	height: 233px;
+	position: absolute;
+}
+.format1{
+	width: 0;
+	height: 0;
+	position: absolute;
+	z-index: 1;
+	top: 7px;
+	left: 0;
+	border-left: 111px solid #5a6377;
+	border-top: 110px solid transparent;
+	border-bottom: 110px solid transparent;
+}
+.format1:before{
+	content: "";
+	width: 110px;
+	height: 53px;
+	position: absolute;
+	z-index: 1;
+	top: -116px;
+	left: -80px;
+	background-color: #7fd54c;
+	transform: skewX(45deg);
+}
+.format1:after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	z-index: 1;
+	top: -59px;
+	left: -51px;
+	border-top: 56px solid #f4a425;
+	border-left: 57px solid transparent;
+	border-right: 57px solid transparent;
+}
+.format2{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	left: 4px;
+	border-bottom: 112px solid #55b5cb;
+	border-left: 112px solid transparent;
+	border-right: 112px solid transparent;
+}
+.format2:before{
+	content: "";
+	width: 78px;
+	height: 77px;
+	position: absolute;
+	z-index: 1;
+	top: -42px;
+	left: 21px;
+	background-color: #7fd54c;
+	transform: rotate(-45deg);
+}
+.format2:after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	z-index: 1;
+	top: -2px;
+	right: -119px;
+	border-right: 56px solid #f4a425;
+	border-top: 57px solid transparent;
+	border-bottom: 57px solid transparent;
+}
+.format3{
+	width: 0;
+	height: 0;
+	position: absolute;
+	z-index: 1;
+	top: 1px;
+	left: 66px;
+	border-right: 111px solid #f4a425;
+	border-bottom: 112px solid transparent;
+	border-left: 57px solid transparent;
+}
+.format3:before{
+	content: "";
+	width: 83px;
+	height: 56px;
+	position: absolute;
+	top: 72px;
+	left: 152px;
+	background-color: #000;
+	border-radius: 50px 50px 0 0;
+}
+.format3:after{
+	content: "";
+	width: 51px;
+	height: 31px;
+	position: absolute;
+	top: 86px;
+	left: 169px;
+	background-color: #FFF;
+	border-radius: 50px 50px 0 0;
+}
+.format4{
+	width: 63px;
+	height: 66px;
+	position: absolute;
+	top: 76px;
+	left: 276px;
+	border-radius: 50%;
+	border-top: 15px solid #000;
+	border-left: 15px solid #000;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	transform: rotate(-136deg);
+}
+.format4:before{
+	content: "";
+	width: 45px;
+	height: 46px;
+	position: absolute;
+	top: 26px;
+	left: -25px;
+	background-color: #FFF;
+	transform: rotate(5deg);
+}
+.format5{
+	content: "";
+	width: 18px;
+	height: 110px;
+	position: absolute;
+	top: 31px;
+	left: 381px;
+	background-color: #000;
+	transform: rotate(0deg);
+}
+.format5:before{
+	content: "";
+	width: 34px;
+	height: 48px;
+	position: absolute;
+	top: 62px;
+	left: 4px;
+	transform: rotate(45deg);
+	border-radius: 50%;
+	border-bottom: 18px solid #000;
+	border-left: 18px solid transparent;
+	border-right: 18px solid transparent;
+	border-top: 18px solid transparent;
+}
+.format5:after{
+	content: "";
+	width: 18px;
+	height: 70px;
+	position: absolute;
+	top: 72px;
+	left: 51px;
+	background-color: #000;
+	transform: rotate(0deg);
+	box-shadow: #000 59px 0px 0px, #000 117px 0px 0px;
+}
+.format6{
+	width: 41px;
+	height: 78px;
+	position: absolute;
+	top: 73px;
+	left: 439px;
+	border-radius: 50px 40px 0 0;
+	border-top: 22px solid #000;
+	border-left: 11px solid #000;
+	border-bottom: 0 solid transparent;
+	border-right: 18px solid #000;
+}
+.format6:before{
+	content: "";
+	width: 41px;
+	height: 76px;
+	position: absolute;
+	top: -21px;
+	left: 47px;
+	border-radius: 50px 40px 0 0;
+	border-top: 22px solid #000;
+	border-left: 11px solid #000;
+	border-bottom: 0 solid transparent;
+	border-right: 18px solid #000;
+}
+.format6:after{
+	content: "";
+	width: 15px;
+	height: 37px;
+	position: absolute;
+	top: -19px;
+	left: -18px;
+	background-color: #000;
+	transform: rotate(0deg);
+}
