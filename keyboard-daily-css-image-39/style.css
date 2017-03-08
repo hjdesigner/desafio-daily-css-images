@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 100%;
+	background-color: #FFF;
+	overflow: hidden;
+}
+.text{
+  position: absolute;
+  z-index: 10;
+  bottom: 3%;
+  left: 3%;
+}
+.text h1{
+  font-size: 1.5em;
+  color: #000;
+}
+.text p{
+  font-size: 1em;
+  color: #000;
+}
+.text p span{
+  color: #000;
+}
+.container{
+	width: 493px;
+	height: 219px;
+	position: absolute;
+	top: calc(50% - 109px);
+	left: calc(50% - 246px);
+}
+.keyboard{
+	width: 100%;
+	height: 219px;
+	position: absolute;
+	z-index: 2;
+	background-color: #7bbfd2;
+	border-radius: 15px;
+}
+.keyboard:before{
+    content: "";
+    width: 100px;
+    height: 219px;
+    position: absolute;
+    z-index: 1;
+    background-color: #7bbfd2;
+    border-radius: 50%;
+    top: -60px;
+    left: 61px;
+    box-shadow: #7bbfd2 240px -3px 0px;
+}
+.keyboard:after{
+    content: "";
+    width: 130px;
+    height: 53px;
+    position: absolute;
+    z-index: 1;
+    background-color: #f7adba;
+    border-radius: 0 0 50% 50%;
+    bottom: -53px;
+    left: 164px;
+}
+.key{
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: 31px;
+	left: 33px;
+	z-index: 3;
+	background-color: #FFF;
+	border-radius: 3px;
+	box-shadow: #FFF 41px 0 0,
+			    #FFF 82px 0 0,
+			    #FFF 123px 0 0,
+			    #FFF 164px 0 0,
+			    #FFF 205px 0 0,
+			    #FFF 246px 0 0,
+			    #FFF 307px 0 0,
+			    #FFF 348px 0 0,
+			    #FFF 389px 0 0,
+				#FFF 0px 40px 0,
+				#FFF 41px 40px 0,
+			    #FFF 82px 40px 0,
+			    #FFF 123px 40px 0,
+			    #FFF 164px 40px 0,
+			    #FFF 205px 40px 0,
+			    #FFF 246px 40px 0,
+			    #FFF 307px 40px 0,
+			    #FFF 348px 40px 0,
+			    #FFF 389px 40px 0,
+				#FFF 0px 80px 0,
+				#FFF 41px 80px 0,
+			    #FFF 82px 80px 0,
+			    #FFF 123px 80px 0,
+			    #FFF 164px 80px 0,
+			    #FFF 205px 80px 0,
+			    #FFF 246px 80px 0,
+			    #FFF 307px 80px 0,
+			    #FFF 348px 80px 0,
+			    #FFF 389px 80px 0,
+				#FFF 0px 120px 0,				
+			    #FFF 246px 120px 0,
+			    #FFF 307px 120px 0,
+			    #FFF 348px 120px 0,
+			    #FFF 389px 120px 0;
+}
+.key:after{
+    content: "";
+    width: 198px;
+    height: 35px;
+    position: absolute;
+    bottom: -120px;
+    left: 42px;
+    z-index: 3;
+    background-color: #FFF;
+    border-radius: 3px;
+}
