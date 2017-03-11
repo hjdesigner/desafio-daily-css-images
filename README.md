@@ -44,6 +44,7 @@ Daily CSS Images A 100% free 50-day email challenge for mastering pure CSS image
 * Laptop - Day 37
 * The Monitor Externo - Day 38
 * Keyboard - Day 39
+* Nitendo 2DS - Day 40
 
 
 Made with lots of love <3!!
