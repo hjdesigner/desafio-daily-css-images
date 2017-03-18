@@ -47,6 +47,7 @@ Daily CSS Images A 100% free 50-day email challenge for mastering pure CSS image
 * Nitendo 2DS - Day 40
 * Mascot For Startup - Day 41
 * Critter - Day 42
+* Fox - Day 43
 
 
 Made with lots of love <3!!
