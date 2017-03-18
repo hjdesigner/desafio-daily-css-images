@@ -45,6 +45,8 @@ Daily CSS Images A 100% free 50-day email challenge for mastering pure CSS image
 * The Monitor Externo - Day 38
 * Keyboard - Day 39
 * Nitendo 2DS - Day 40
+* Mascot For Startup - Day 41
+* Critter - Day 42
 
 
 Made with lots of love <3!!
