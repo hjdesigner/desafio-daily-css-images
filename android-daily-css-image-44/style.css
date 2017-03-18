@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 100%;
+	background-color: #f2f6f7;
+	overflow: hidden;
+}
+.text{
+  position: absolute;
+  z-index: 10;
+  bottom: 3%;
+  left: 3%;
+}
+.text h1{
+  font-size: 1.5em;
+  color: #000;
+}
+.text p{
+  font-size: 1em;
+  color: #000;
+}
+.text p span{
+  color: #000;
+}
+.container{
+	width: 380px;
+	height: 400px;
+	position: absolute;
+	top: calc(50% - 200px);
+	left: calc(50% - 190px);
+}
+@keyframes animationHead {
+	0%{
+		transform: rotateZ(0deg);
+	}
+	20%{
+		transform: rotateZ(-5deg);
+	}
+	40%{
+		transform: rotateZ(5deg);
+	}
+	50%{
+		transform: rotateZ(0deg);
+	}
+	51{
+		transform: rotateY(0deg);
+	}
+	70%{
+		transform: rotateY(50deg);
+	}
+	80%{
+		transform: rotateY(0deg);
+	}
+	100%{
+		transform: rotateY(0deg);
+	}
+}
+.head{
+	width: 220px;
+	height: 100px;
+	position: absolute;
+	z-index: 2;
+	top: 30px;
+	left: calc(50% - 110px);
+	background: linear-gradient(to right, #38c372 0%, #38c372 50%, #28c262 50%, #28c262 100%);
+	border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+	animation: animationHead 4s linear infinite;
+}
+.eyes{
+	width: 20px;
+  height: 20px;
+  position: absolute;
+  z-index: 3;
+  top: 40px;
+  background-color: #fbfcff;
+  border-radius: 50%;
+}
+.eyes-left{
+	left: 49px;
+}
+.eyes-right{
+	right: 49px;
+}
+.antenna{
+	width: 5px;
+	height: 50px;
+	position: absolute;
+	z-index: 3;
+	top: -30px;
+	border-radius: 10px;
+}
+.antenna-left{
+	left: 60px;
+	background-color: #38c372;
+	transform: rotate(-25deg);
+}
+.antenna-right{
+	right: 60px;
+	background-color: #28c262;
+	transform: rotate(25deg);
+}
+.body{
+	width: 220px;
+	height: 180px;
+	position: absolute;
+	z-index: 2;
+	bottom: 82px;
+	left: calc(50% - 110px);
+	background: linear-gradient(to right, #38c372 0%, #38c372 50%, #28c262 50%, #28c262 100%);
+	border-radius: 0 0 20% 20%;
+}
+.legs{
+	width: 45px;
+	height: 100px;
+	position: absolute;
+	bottom: 0;
+	border-radius: 0 0 20px 20px;
+}
+.legs-left{
+	left: 129px;
+	background-color: #38c372;
+}
+.legs-right{
+	right: 129px;
+	background-color: #28c262;
+}
+.arms{
+	width: 45px;
+	height: 160px;
+	position: absolute;
+	bottom: 109px;
+	border-radius: 30px;
+}
+.arms-left{
+	left: 28px;
+	background-color: #38c372;
+}
+.arms-right{
+	right: 28px;
+	background-color: #38c372;
+}

@@ -48,6 +48,7 @@ Daily CSS Images A 100% free 50-day email challenge for mastering pure CSS image
 * Mascot For Startup - Day 41
 * Critter - Day 42
 * Fox - Day 43
+* Android - Day 44
 
 
 Made with lots of love <3!!
