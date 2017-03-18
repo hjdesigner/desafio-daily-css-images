@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 100%;
+	background-color: #d05089;
+	overflow: hidden;
+}
+.text{
+  position: absolute;
+  z-index: 10;
+  bottom: 3%;
+  left: 3%;
+}
+.text h1{
+  font-size: 1.5em;
+  color: #000;
+}
+.text p{
+  font-size: 1em;
+  color: #000;
+}
+.text p span{
+  color: #000;
+}
+.container{
+	width: 380px;
+	height: 400px;
+	position: absolute;
+	top: calc(50% - 200px);
+	left: calc(50% - 190px);
+}
+.eye{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	z-index: 2;
+	border-radius: 50%;
+	background-color: #FFF;
+	border: 20px solid #b93777;
+	top: 0;
+	left: calc(50% - 100px);
+}
+.eye:before{
+	content: "";
+	width: 110px;
+	height: 110px;
+	position: absolute;
+	z-index: 3;
+	top: calc(50% - 55px);
+	left: calc(50% - 55px);
+	background-color: #000;
+	border: 15px solid #b5cc23;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+.eye:after{
+	content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 4;
+  top: 60px;
+  left: 11px;
+  background-color: #FFF;
+  border-radius: 50%;
+}
+.mouth{
+	width: 380px;
+	height: 170px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #000;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.mouth:before{
+	content: "";
+  width: 380px;
+  height: 170px;
+  position: absolute;
+  bottom: -80px;
+  left: 27px;
+  background-color: #c72435;
+  border-radius: 50%;
+}
+.mouth:after{
+	content: "";
+	width: 50px;
+	height: 100px;
+	background-color: #FFF;
+	border-radius: 22px;
+	position: absolute;
+	top: -31px;
+	left: 50px;
+	box-shadow: #FFF 70px 0px 0px,
+							#FFF 131px -20px 0px,
+							#FFF 185px -14px 0px,
+							#FFF 247px -2px 0px;
+}

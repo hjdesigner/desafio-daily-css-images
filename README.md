@@ -49,6 +49,7 @@ Daily CSS Images A 100% free 50-day email challenge for mastering pure CSS image
 * Critter - Day 42
 * Fox - Day 43
 * Android - Day 44
+* Mascot Petty - Day 45
 
 
 Made with lots of love <3!!
