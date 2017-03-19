@@ -52,5 +52,6 @@ Daily CSS Images A 100% free 50-day email challenge for mastering pure CSS image
 * Mascot Petty - Day 45
 * Rocket Cheered up - Day 46
 * Eva Cheered up - Day 47
+* Wall-e - Day 48
 
 Made with lots of love <3!!
