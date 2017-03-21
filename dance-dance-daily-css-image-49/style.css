@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 100%;
+	background: -webkit-radial-gradient(center, ellipse cover, #4b2860 0%,#18101f 100%);
+	overflow: hidden;
+}
+.text{
+  position: absolute;
+  z-index: 10;
+  bottom: 3%;
+  left: 3%;
+}
+.text h1{
+  font-size: 1.5em;
+  color: #FFF;
+}
+.text p{
+  font-size: 1em;
+  color: #FFF;
+}
+.text p span{
+  color: #FFF;
+}
+.container{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: calc(50% - 250px);
+	left: calc(50% - 250px);
+}
+@keyframes animationCenter{
+    0%{
+        box-shadow: #fc00ff 0px 0px 15px 7px;
+    }
+    50%{
+        box-shadow: #fc00ff 0px 0px 30px 7px;
+    }
+    100%{
+        box-shadow: #fc00ff 0px 0px 15px 7px;
+    }
+}
+.dance-center{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+    background-color: #fc00ff;
+    border-radius: 50%;
+    border: 10px solid #de7ce0;
+    box-shadow: #fc00ff 0px 0px 30px 7px;
+    animation: animationCenter 2s .25s linear infinite;
+}
+@keyframes animationArrow{
+    0%{
+        box-shadow: #00f6ff 0px 0px 60px 13px;
+    }
+    50%{
+        box-shadow: #00f6ff 0px 0px 120px 13px;
+    }
+    100%{
+        box-shadow: #00f6ff 0px 0px 60px 13px;
+    }
+}
+.arrow{
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    background-color: #00f6ff;
+	box-shadow: #00f6ff 0px 0px 120px 13px;
+    animation: animationArrow 2s linear infinite;
+}
+.arrow:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -25px;
+    left: 38px;
+    border-left: 41px solid #00f6ff;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+}
+.arrow1{
+    top: 57px;
+    left: 230px;
+    transform: rotate(-90deg);
+}
+.arrow2{
+    bottom: 49px;
+    left: 230px;
+    transform: rotate(90deg);
+}
+.arrow3{
+	bottom: 224px;
+    right: 57px;
+    transform: rotate(0deg);
+}
+.arrow4{
+	bottom: 224px;
+    left: 57px;
+    transform: rotate(180deg);
+}
+@keyframes animationDatail{
+    0%{
+        box-shadow: #c000ff 0px 0px 20px;
+    }
+    50%{
+        box-shadow: #c000ff 0px 0px 40px;
+    }
+    100%{
+        box-shadow: #c000ff 0px 0px 20px;
+    }
+}
+.detail {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border: 5px solid #c000ff;
+    border-radius: 50%;
+    box-shadow: #c000ff 0px 0px 40px;
+    animation: animationDatail 2s .50s linear infinite;
+}
+.detail:before {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    border: 5px solid #c000ff;
+    border-radius: 50%;
+    box-shadow: #c000ff 0px 0px 40px;
+    content: "";
+}
+.detail1 {
+    top: 20px;
+    left: 20px;
+}
+.detail2 {
+    top: 20px;
+    right: 20px;
+}
+.detail3 {
+    bottom: 20px;
+    left: 20px;
+}
+.detail4 {
+    bottom: 20px;
+    right: 20px;
+}
