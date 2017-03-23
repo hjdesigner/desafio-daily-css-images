@@ -54,5 +54,6 @@ Daily CSS Images A 100% free 50-day email challenge for mastering pure CSS image
 * Eva Cheered up - Day 47
 * Wall-e - Day 48
 * Dance Dance - Day 49
+* CSS Love Pure CSS - Day 50
 
 Made with lots of love <3!!

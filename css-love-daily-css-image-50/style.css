@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	font-family: 'Anton', sans-serif;
+	font-size: 100%;
+	background: -webkit-linear-gradient(top, #0b0d20 0%,#3a68b2 100%);
+	overflow: hidden;
+}
+.text{
+  position: absolute;
+  z-index: 10;
+  top: 3%;
+  left: 3%;
+}
+.text h1{
+  font-size: 1.5em;
+  color: #FFF;
+}
+.text p{
+  font-size: 1em;
+  color: #FFF;
+}
+.text p span{
+  color: #FFF;
+}
+@keyframes animationRow {
+	0%{
+		transform: translateY(0px);
+	}
+	50%{
+		transform: translateY(-10px);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+}
+.row{
+	width: 100%;
+	height: 158px;
+	position: absolute;
+	overflow: hidden;
+}
+.row1{
+	bottom: -10px;
+	left: 0;
+	z-index: 10;
+	animation: animationRow 1s linear infinite;
+}
+.row2{
+	bottom: 18px;
+	left: 33px;
+	z-index: 9;
+	animation: animationRow 1s .25s linear infinite;
+}
+.row3{
+	bottom: 38px;
+	left: -17px;
+	z-index: 8;
+	animation: animationRow 1s .50s linear infinite;
+}
+.person{
+	width: 90px;
+  height: 90px;
+  position: absolute;
+  bottom: 0;
+  border-radius: 3px;
+}
+.person:before{
+	content: "";
+  width: 30px;
+  height: 79px;
+  position: absolute;
+  top: 0;
+	left: -34px;
+  border-radius: 3px;
+}
+.person:after{
+	content: "";
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: -64px;
+	left: 14px;
+	border-radius: 50%;
+}
+.person1{
+	left: 50px;
+}
+.person2{
+	left: 220px;
+}
+.person3{
+	left: 383px;
+}
+.person4{
+	left: 550px;
+}
+.person5{
+	left: 710px;
+}
+.person6{
+	left: 873px;
+}
+.person7{
+	left: 1038px;
+}
+.person8{
+	left: 1214px;
+}
+.preto{
+	background-color: #000;
+}
+.preto:before,
+.preto:after{
+	background-color: #000;
+}
+.preto:before{
+	box-shadow: #000 128px -57px 0px;
+}
+.branco{
+	background-color: #FFF;
+}
+.branco:before,
+.branco:after{
+	background-color: #FFF;
+}
+.branco:before{
+	box-shadow: #FFF 128px -57px 0px;
+}
+.cinza{
+	background-color: #353434;
+}
+.cinza:before,
+.cinza:after{
+	background-color: #353434;
+}
+.cinza:before{
+	box-shadow: #353434 128px -57px 0px;
+}
+.board{
+	width: 430px;
+	height: 200px;
+	position: absolute;
+	z-index: 11;
+	top: 10%;
+	left: calc(50% - 215px);
+}
+.board h2{
+	width: auto;
+	height: 20px;
+	float: left;
+	font-size: 170px;
+	color: #FFF;
+	line-height: 200px;
+}
+@keyframes animationHeart {
+	0%{
+		transform: scale(.9);
+	}
+	50%{
+		transform: scale(1);
+	}
+	100%{
+		transform: scale(.9);
+	}
+}
+.heart{
+	width: 169px;
+	height: 200px;
+	float: right;
+	position: relative;
+	animation: animationHeart 1s linear infinite;
+}
+.heart:before, .heart:after{
+	width: 80px;
+	height: 140px;
+	position: absolute;
+	top: 29px;
+	left: 80px;
+	content: "";
+	background: #e91e63;
+	border-radius: 50px 50px 0 0;
+	transform: rotate(-45deg);
+	transform-origin: 0 100%;
+}
+.heart:after{
+	left: 0;
+	transform: rotate(45deg);
+	transform-origin: 100% 100%;
+}
